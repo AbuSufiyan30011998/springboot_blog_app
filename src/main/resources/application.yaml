@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/blog_db
+    username: root
+    password: test
+
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
